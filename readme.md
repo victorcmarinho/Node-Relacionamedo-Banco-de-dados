@@ -19,19 +19,18 @@ Para inicializar todos os testes já prepardos, utilize <code> yarn test </code>
 Instale o docker para melhores resultados
 
 <code>
-    docker pull postgres
-    docker run --name some-postgres -e POSTGRES_PASSWORD=docker -d postgres
-    docker start postgres
+    docker pull postgres <br />
+    docker run --name some-postgres -e POSTGRES_PASSWORD=docker -d postgres <br />
+    docker start postgres <br />
 </code>
 
 # Como rodar? 🤔
 Siga os passos:
 
 <code>
-    yarn
-    yarn typeorm migration:run
-    yarn dev:server
-
+    yarn <br />
+    yarn typeorm migration:run <br />
+    yarn dev:server <br />
 </code>
 Happy Hacking! 🚀
 =
